@@ -10,7 +10,7 @@ exports.index = function ( req, res, next ){
       if( err ) return next( err );
 
       res.render( 'index', {
-          title : 'Containers Todo Example',
+          title : 'Containers Todo',
           todos : todos
       });
     });
